@@ -238,38 +238,60 @@ let humanDisease = {
             ]
         },
         jaundice: {
-            discription: "",
-            organismName: "",
-            causes: "",
-            symtoms: "",
+            discription: "jaundice is a condition in which the skin, whites of the eyes and mucous membranes turn yellow",
+            organismName: "no organism involved",
+            causes: "increased level of Bilirubin",
+            symtoms: [
+                "pale stools",
+                "itchiness",
+                "weight loss",
+                "vomiting",
+                "fatigue"
+            ],
             transmission: "",
-            diagnosis: "",
-            treatment: "",
-            prevention: "",
+            diagnosis: [
+                "Bilirubin tests",
+                "complete blood count (CBC)",
+                "Hepatitis A, B, and C tests"
+            ],
+            treatment: "surgically removing the obstruction.",
+            prevention: [
+                "by eating a balanced diet",
+                "exercising regularly",
+                "not consuming more amounts of alcohol."
+            ],
 
         },
         diarrhea: {
-            discription: "",
-            organismName: "",
-            causes: "",
-            symtoms: "",
+            discription: "Diarrhea is characterized by abnormally loose or watery stools",
+            organismName: [
+                "by bacteria",
+                "by virus"
+            ],
+            causes: [
+                "Rotavirus ",
+                "Many medications"
+            ],
+            symtoms: [
+                "Loose, watery stools",
+                "Abdominal cramps",
+                "Abdominal pain",
+                "Fever",
+                "Blood in the stool",
+                "Mucus in the stool",
+                "Bloating",
+                "Nausea"
+            ],
             transmission: "",
             diagnosis: "",
-            treatment: "",
-            prevention: "",
-
+            treatment: "Pedialyte",
+            prevention: [
+                "Wash your hands before and after preparing food",
+                "Use hand sanitizer",
+                "Vaccination"
+            ]
         },
-        hepatitis: {
-            discription: "",
-            organismName: "",
-            causes: "",
-            symtoms: "",
-            transmission: "",
-            diagnosis: "",
-            treatment: "",
-            prevention: "",
 
-        }
     },
     centralNervousDiseases: {
         poliomyelitis: {
@@ -305,65 +327,166 @@ let humanDisease = {
 
         },
         rabies: {
-            discription: "",
-            organismName: "",
+            discription: "Rabies is a deadly virus spread to people from the saliva of infected animals",
+            organismName: "Rabies virus",
             causes: "",
-            symtoms: "",
-            transmission: "",
-            diagnosis: "",
-            treatment: "",
-            prevention: "",
+            symtoms: [
+                "Fever",
+                " Insomnia",
+                "Partial paralysis",
+                "Headache",
+                "Nausea",
+                "Vomiting",
+                "Agitation",
+                "Anxiety",
+                "Confusion",
+                "Hyperactivity"
+            ],
+            transmission: [
+                "by bats",
+                "coyotes",
+                "foxes",
+                "raccoons",
+                "skunks"
+            ],
+            diagnosis: [
+                "isolate virus from saliva",
+                "skin biopsy"
+            ],
+            treatment: [
+                "A fast-acting dose of rabies immune globulin",
+                "A series of rabies vaccines",
+
+            ],
+            prevention: [
+                "Vaccinate your pets",
+                "Keep your pets confined",
+                "Keep your pets confined",
+                "Keep bats out of your home"
+            ],
 
         },
         meningitis: {
-            discription: "",
-            organismName: "",
-            causes: "",
-            symtoms: "",
+            discription: "it is an inflammation of the membranes (meninges) surrounding your brain and spinal cord",
+            organismName: [
+                "Streptococcus",
+                "Neisseria meningitidis",
+                "Haemophilus"
+            ],
+            causes: [
+                "by bacteria ",
+                "by fungus"
+            ],
+            symtoms: [
+                "Sudden high fever",
+                "Stiff neck",
+                "Severe headache",
+                "Confusion",
+                "Sensitivity to light",
+                "Skin rash"
+            ],
             transmission: "",
-            diagnosis: "",
-            treatment: "",
-            prevention: "",
-
+            diagnosis: [
+                "Blood cultures ",
+                "complete blood count",
+                "lumbar puncture",
+                "Chest X-rays",
+                "CT scan of the head"
+            ],
+            treatment: [
+                "intravenous antibiotics. ",
+                "antifungal agents"
+            ],
+            prevention: [
+                "Stay healthy", "Cover your mouth.",
+                "Practice good hygiene",
+                "Don't share toothbrushes"
+            ]
         },
         epilepsy: {
-            discription: "",
+            discription: "Epilepsy is a chronic disorder that causes unprovoked, recurrent seizures",
             organismName: "",
-            causes: "",
-            symtoms: "",
-            transmission: "",
-            diagnosis: "",
-            treatment: "",
-            prevention: "",
-
+            causes: "traumatic brain injury",
+            symtoms: [
+                "alterations to sense of taste, smell, sight, hearing, or touch",
+                "dizziness",
+                "tingling and twitching of limbs"
+            ],
+            diagnosis: [
+                "Electroencephalogram (EEG)",
+                "Blood tests",
+                "liver function test",
+                "kidney function test",
+                "blood glucose levels"
+            ],
+            treatment: [
+                "Anti-epileptic (anticonvulsant, antiseizure) drugs",
+                "Vagus nerve stimulator",
+                "Brain surgery"
+            ]
         },
         alzheimerDisease: {
-            discription: "",
+            discription: "it is a progressive disorder that causes brain cells to waste away (degenerate) and die",
             organismName: "",
-            causes: "",
-            symtoms: "",
+            causes: [
+                "by a combination of genetic factors",
+                "lifestyle and environmental factors",
+            ],
+            symtoms: [
+                "Depression",
+                "Mood swings",
+                "Changes in sleeping habits"
+            ],
             transmission: "",
             diagnosis: "",
             treatment: "",
-            prevention: "",
+            prevention: [
+                "Exercise regularly",
+                "Eat a diet of fresh produce",
+                "manage high blood pressure",
+                "manage diabetes",
+                "manage high cholesterol"
+            ],
 
         },
-        mumps: {
-            discription: "",
-            organismName: "",
-            causes: "",
-            symtoms: "",
-            transmission: "",
-            diagnosis: "",
-            treatment: "",
-            prevention: "",
 
-        }
     },
     liverDiseases: {
+        hepatitis: {
+            discription: "Hepatitis is an inflammation of the liver",
+            organismName: [
+                "secondary result of medications",
+                "drugs",
+                "toxins",
+                "alcohol",
+            ],
+            causes: "Excessive alcohol consumption",
+            symtoms: [
+                "fatigue",
+                "flu-like symptoms",
+                "flu-like symptoms",
+                "Loss of Appetite"
+            ],
+            transmission: "",
+            diagnosis: [
+                "Liver function tests",
+                "Ultrasound",
+                "Ultrasound"
+            ],
+            treatment: [
+                "combination of antiviral drug therapies",
+                " liver transplant"
+            ],
+            prevention: [
+                "not sharing drug needles",
+                "avoid raw fruit and vegetables",
+                "avoid ice",
+                "vaccination"
+            ]
+        },
         hepatitisA: {
-            discription: "",
-            organismName: "",
+            dimscription: "",
+            organismNae: "",
             causes: "",
             symtoms: "",
             transmission: "",
